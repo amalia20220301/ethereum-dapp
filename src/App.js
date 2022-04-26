@@ -1,12 +1,12 @@
 import './App.css';
 import { useState } from 'react';
 import { ethers } from 'ethers'
-import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
-import Token from './artifacts/contracts/Token.sol/Token.json'
+import Greeter from './artifacts/contracts/GreeterV2.sol/GreeterV2.json'
+import Token from './artifacts/contracts/TokenV2.sol/TokenV2.json'
 
 // Update with the contract address logged out to the CLI when it was deployed 
-const greeterAddress = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
-const tokenAddress = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+const greeterAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+const tokenAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
 
 function App() {
   // store greeting in local state
