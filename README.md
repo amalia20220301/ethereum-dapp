@@ -13,3 +13,15 @@ npx hardhat
 ```shell
 npx hardhat compile
 ```
+
+## Setup a local node
+
+```shell
+npx hardhat node
+```
+
+### Deploy contract to local network
+
+```shell
+npx hardhat run scripts/deploy.js --network localhost
+```
