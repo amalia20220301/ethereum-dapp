@@ -5,8 +5,8 @@ import Greeter from './artifacts/contracts/GreeterV2.sol/GreeterV2.json'
 import Token from './artifacts/contracts/TokenV2.sol/TokenV2.json'
 
 // Update with the contract address logged out to the CLI when it was deployed 
-const greeterAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
-const tokenAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+const greeterAddress = "0x116AF22e3E5C6Cc5E6439cCB03d2B79C7A23Dd4f"
+const tokenAddress = "0x0972d33218a3Dc54769001A5E6E9Bf101Ed1D785"
 
 function App() {
   // store greeting in local state

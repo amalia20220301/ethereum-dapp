@@ -25,3 +25,11 @@ npx hardhat node
 ```shell
 npx hardhat run scripts/deploy.js --network localhost
 ```
+
+### Deploy contract to ropsten network
+
+```shell
+npx hardhat run scripts/deploy.js --network ropsten
+```
+
+Transactions can be found in `https://ropsten.etherscan.io/`
